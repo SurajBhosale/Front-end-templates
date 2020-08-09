@@ -1,0 +1,550 @@
+/* basic styling */
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 500vh;
+}
+
+.r, .col{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.subh2{
+    color: #1fcafe;
+}
+
+/* styling navbar and header */
+
+header{
+    display: block;
+    text-align: center;
+    height: 80px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+header #menu{
+    float:left;
+    padding: 15px;
+    padding-top: 25px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+header #menu:hover{
+    font-size: 16.4px;
+}
+
+header #logo img{
+    margin: auto;
+    padding: 10px;
+    padding-top: 6px;
+}
+
+header #login{
+    float: right;
+    padding: 15px;
+    padding-top: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+header #login:hover{
+    font-size: 16.4px;
+}
+
+nav{
+    background-color: #fff;
+}
+
+nav ul{
+    margin: auto !important;
+}
+
+nav ul li a{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #e41080;
+}
+
+nav{
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+/* styling enquire button */
+
+#enquire p{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    position: fixed;
+    right: 0;
+    top: 40vh;
+    background-color: #b81b3a;
+    padding: 20px 5px 20px 10px !important;
+    margin: 0px !important;
+    font-size: 1.2rem;
+    color: #fff;
+    z-index: 2;
+}
+
+#enquire p:hover{
+    cursor: pointer;
+}
+
+/* styling slideshow */
+
+.img{
+    height: 70vh;
+    width: 100%;
+}
+
+#carouselExampleFade{
+    height: 70vh;
+}
+
+.carousel-inner{
+    height: 100%;
+    z-index: -1;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    z-index: 0 !important;
+}
+
+.content{
+    margin-left: 150px;
+    margin-top: 450px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 85%;
+}
+
+.content p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(0,0,0,0.08);
+    padding: 5px;
+}
+
+.price{
+    height: 40px;
+    background-color: #22376b;
+    color: #fff;
+}
+
+.price #first{
+    float: left;
+    margin-left: 100px;
+}
+
+.price #second{
+    float: right;
+    margin-right: 100px;
+}
+
+.price div{
+    list-style: none;
+    float: left;
+    margin-left: 20;
+    font-size: 0.9rem;
+    padding: 5px;  
+}
+
+.price div span{
+    font-size: 1rem;
+}
+
+.offer{
+    padding-top: 40px;
+}
+
+.offer h2{
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #22376b;
+    border-bottom: 2px solid #e41080;
+    max-width: 180px;
+}
+
+.offer p{
+    font-size: 0.9rem;
+    color: rgb(58, 53, 53);
+}
+
+.offer h3{
+    font-size: 1rem;
+    color: rgb(26, 21, 21);
+}
+
+/* styling amenities section*/
+
+#amenities{
+    padding-top: 15px;
+}
+
+#amenities .head{
+    margin: 40px 0px !important;
+    border: 0 !important;
+}
+
+#amenities h2{
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #22376b;
+    border-bottom: 2px solid #e41080;
+    max-width: 250px;
+}
+
+#amenities p{
+    font-size: 1rem;
+    color: rgb(26, 21, 21);
+}
+
+#amenities .subinfo{
+    font-size: 0.9rem;
+    color: rgb(58, 53, 53);
+}
+
+#amenities .info{
+    background-color: #22376b;
+    height: 70vh !important;
+    padding: 40px;
+}
+
+#amenities .info .btn{
+    margin-top: 20px;
+}
+
+#amenities .info h2{
+    color: #fff;
+    border: none !important;
+    padding-top: 30px;
+}
+
+#amenities .info p{
+    color: #fff;
+}
+
+/* styling price section */
+
+#price{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+#price h2{
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #22376b;
+    border-bottom: 2px solid #e41080;
+    max-width: 190px;
+}
+
+#price .pricec{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    background-color: rgba(0,0,0,0.01);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+#price .pricec:hover{
+    background-color:rgb(239, 240, 240);
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    transition: 0.2s ease-in-out all;
+}
+
+#price p{
+    color: #e41080;
+    font-size: 1rem;
+}
+
+#price .value{
+    color: #22376b;
+    font-size: 1.3rem;
+}
+
+/* styling image gallary */
+
+#gallary{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+#gallary img{
+    width: 100%;
+    margin: 10px;
+    height: 230px;
+    border-radius: 5px !important;
+    overflow: hidden;
+    transition: transform .5s ease;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+#gallary h2{
+    font-size: 2rem;
+    margin: 20px 0px 30px 0px;
+    color: #22376b;
+    border-bottom: 2px solid #e41080;
+    max-width: 170px;
+}
+
+#gallary .thumbnail:hover img{
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,0.1);
+    opacity: 0.9;
+}
+
+/* styling service section */
+
+#service{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+#service .image{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.05);
+    height: 280px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#service .image:hover{
+    background-color: #22376b;
+    color: #fff;
+    transition: 0.5s ease-in-out all;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#service .image:hover img{
+    transform: scale(1.3);
+}
+
+#service .image img{
+    padding: 50px 0px;
+    transition: transform .5s ease;
+}
+
+#service h2{
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #22376b;
+    border-bottom: 2px solid #e41080;
+    max-width: 170px;
+}
+
+#service .subtitle{
+    font-size: 0.8rem;
+}
+
+/* styling location section */
+
+#location{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0,0.03);
+}
+
+#location h2{
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #22376b;
+    border-bottom: 2px solid #e41080;
+    max-width: 130px;
+}
+
+#location h3{
+    color: rgb(99, 63, 165);
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#location strong{
+    color: steelblue;
+}
+
+#location p{
+    padding-left: 20px;
+}
+
+/* styling footer section */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.705);
+    margin: none;
+    width: 100%;
+}
+
+footer .social {
+    padding: 3px;
+    padding-right: 100px;
+    text-align: right;
+}
+
+footer .social .logo{
+    float: left;
+    padding-left: 100px;
+}
+  
+footer .social-icon {
+    text-align: center;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    background-color: black;
+    font-size: 1.1rem;
+    margin: 5px 7px;
+}
+
+footer .social-icon:hover{
+    opacity: 0.6;
+}
+
+footer .social .fa-facebook-f {
+    background-color: #3b5999;
+}
+
+footer .social .fa-twitter {
+    background-color: #1da1f3;
+}
+
+footer .social .fa-instagram {
+    background-color: #3e749a;
+}
+
+footer .social .fa-youtube {
+    background-color: #fe0000;
+}
+
+footer .social .fa-pinterest {
+    background-color: #e60024;
+}
+
+footer .social .fa-linkedin-in {
+    background-color: #0077b4;
+}
+
+/* styling popup window */
+
+/* The Modal (background) */
+.mod {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+/* mod-content for enquire, login and service popups */
+
+.mod-content-enquire, .mod-content-login {
+    background-color: #e5ebeafd;
+    max-width: 400px;
+    margin: 13vh 35% 0 35%;
+    border: 1px solid #888;
+}
+
+.mod-content-enquire h2, .mod-content-login h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.mod-content-enquire form, .mod-content-login form{
+    padding: 20px;
+}
+
+.mod-content-enquire form input, .mod-content-login form input{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    padding: 2px 8px;
+}
+
+.mod-content-enquire form input[type="submit"], .mod-content-login form input[type="submit"]{
+    margin-top: 15px;
+}
+
+/* The Close Button (x) */
+
+.mod .mod-content-enquire .cl,.mod-content-service .cl, .mod-content-login .cl{
+    float: right;
+    color: #000;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: -0.6rem;
+    margin-right: 0.9rem;
+}
+  
+.mod .mod-content-enquire .cl:hover, .mod-content-service .cl:hover, .mod-content-login .cl:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.mod-content-service {
+    background-color: #e5ebeafd;
+    max-width: 900px;
+    margin: 13vh 30% 0 30%;
+    border: 1px solid #888;
+}
+
+.mod-content-service .contents{
+    padding: 20px;
+}
+
+/* Add Zoom Animation for mod */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
